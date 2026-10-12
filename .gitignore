@@ -1,0 +1,21 @@
+# Los scripts .bat de Windows forman parte del proyecto
+!*.bat
+
+# Backend
+backend/target/
+backend/data/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Simulador
+simulator/.venv/
+__pycache__/
+*.pyc
+
+# Varios
+*.log
+.idea/
+.vscode/
+*.iml
